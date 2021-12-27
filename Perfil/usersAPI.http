@@ -1,0 +1,2 @@
+GET /users/gabriel-has HTTP/1.1
+Host: api.github.com

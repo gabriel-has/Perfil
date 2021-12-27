@@ -1,0 +1,184 @@
+.frame {
+    border: solid thin;
+}
+
+#tela {
+    padding: 0;
+}
+
+.box-personalInfo{
+    margin: 0.5rem auto;
+}
+
+.h100 {
+    height: 100%;
+    /*background-color: #aaa;*/
+}
+
+p {
+    font-size: 0.9rem;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+    max-width: 800px;
+}
+
+#box-navbar, #box-footer {
+    padding: 0;
+    background-color: #c9c9c9;
+}
+
+#box-repositorios {
+    padding: 0;
+    padding-top: 1rem;
+    background-color: #c9c9c9;
+}
+
+#box-perfil, #box-projetos, #box-experiencias, #box-recomendados {
+    padding: 0;
+    padding-top: 1rem;
+    background-color: #eee;
+}
+
+#perfilNome {
+    padding-top: 1rem;
+}
+
+#box-photo {
+    padding: 0;
+}
+
+#perfilAvatar {
+    border-radius: 0.5rem 2rem;
+    padding: 0.5rem;
+    max-width: 15rem;
+}
+
+#btnProjetos, #btnExp, #btnRepo, #btnRecomend {
+    max-width: 10rem;
+    justify-self: flex-end;
+}
+
+.card, .cards {
+    margin: 1rem;
+}
+
+.card, .cards {
+    border-radius: 0.5rem 2rem;
+    border: solid thin #c9c9c9;
+}
+
+.cards:hover {
+    background-color: #aaa;
+}
+
+.imgProjetos {
+    display: flex;
+    max-width: 6rem;
+    align-self: center;
+    padding-top: 1rem;
+}
+
+.icons {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #aaa;
+    border-radius: 50%;
+}
+
+.fas {
+    display: flex;
+}
+
+.box-logo {
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    justify-content: flex-start;
+    justify-self: stretch;
+}
+
+.logoUniversidade {
+    max-width: 8rem;
+    min-width: 0;
+    margin: 0;
+    display: flex;
+    flex-shrink: 1;
+}
+
+.recomendado {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    justify-content: flex-start;
+    align-items: center;
+    justify-self: stretch;
+    text-align: center;
+}
+
+.recomendado:hover {
+    background-color: #c9c9c9;
+}
+
+a {
+    
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+    color: black;
+}
+
+
+.nomeRecomendado, .autorRecomendado {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    text-decoration-line: none;
+}
+
+.imgRecomendado {
+    height: 6rem;
+    max-width: 8rem;
+}
+
+
+#box-footer {
+    height: 56px;
+    align-items: center;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.modal-dialog {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+#avatarSearch {
+    display: flex;
+    flex-shrink: 1;
+    margin: 0 auto;
+    max-width: 240px;
+    border-radius: 50%;
+}
